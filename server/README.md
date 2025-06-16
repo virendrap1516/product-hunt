@@ -57,48 +57,7 @@
 - **Avatar Upload** for user profiles
 - **Product Images** with logo and gallery support
 
-## 📁 Project Architecture
 
-```
-server/
-├── src/
-│   ├── controllers/         # Business logic handlers
-│   │   ├── authController.js     # Authentication operations
-│   │   ├── commentController.js  # Comment management
-│   │   ├── productController.js  # Product operations
-│   │   └── adminController.js    # Admin dashboard operations
-│   ├── middleware/          # Custom middleware functions
-│   │   ├── auth.js              # JWT authentication middleware
-│   │   ├── adminAuth.js         # Admin authentication middleware
-│   │   └── validation.js        # Input validation middleware
-│   ├── models/              # MongoDB data models
-│   │   ├── User.js              # User schema & methods
-│   │   ├── Product.js           # Product schema & methods
-│   │   ├── Comment.js           # Comment schema & methods
-│   │   ├── Upvote.js            # Upvote schema & methods
-│   │   └── Admin.js             # Admin schema & methods
-│   ├── routes/              # API route definitions
-│   │   ├── authRoutes.js        # Authentication endpoints
-│   │   ├── productRoutes.js     # Product endpoints
-│   │   ├── commentRoutes.js     # Comment endpoints
-│   │   └── adminRoutes.js       # Admin dashboard endpoints
-│   ├── utils/               # Utility functions & helpers
-│   │   ├── jwt.js               # JWT token utilities
-│   │   ├── upload.js            # File upload configuration
-│   │   ├── cookieHelper.js      # Cookie management
-│   │   └── cloudinaryHelper.js  # Cloudinary operations
-│   ├── scripts/             # Database seeding and utilities
-│   │   └── seedAdmin.js         # Admin user seeding script
-│   ├── db/
-│   │   └── connectDB.js         # MongoDB connection setup
-│   ├── app.js               # Express application setup
-│   └── index.js             # Server entry point
-├── public/                  # Static file serving directory
-├── .env                     # Environment variables
-├── .env.example             # Environment variables template
-├── package.json
-└── README.md
-```
 
 ## 🛠️ Quick Start Guide
 
@@ -115,7 +74,7 @@ server/
 
    ```bash
    git clone <repository-url>
-   cd kulp-project/server
+   
    ```
 
 2. **Install Dependencies**
