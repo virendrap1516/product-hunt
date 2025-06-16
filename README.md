@@ -4,9 +4,6 @@ A full-stack Product Hunt clone built with **Nuxt 3**, **Express.js**, and **Mon
 
 ## 🌟 Live Demo
 
-**Frontend:** [Your Frontend URL]  
-**Backend API:** [Your Backend URL]  
-**GitHub Repository:** https://github.com/HiteshTripathi2005/product-hunt
 
 ## 📋 Table of Contents
 
@@ -611,47 +608,5 @@ The platform includes a **complete admin management system** with 8 dedicated en
 
 **Current Status**: All admin backend functionality is implemented and documented. The admin frontend interface needs to be built to complete this feature.
 
-### 🚀 **Deployment Ready**
-
-**Core Application**: Ready for immediate production deployment
-
-- All user-facing features complete and tested
-- Secure authentication and authorization
-- Optimized performance and responsive design
-- Comprehensive error handling and validation
-
-**Admin Features**: Backend APIs ready, frontend development needed (estimated 1-2 weeks)
-
-### 📈 **Development Metrics**
-
-- **Backend**: 24 REST API endpoints (100% complete)
-- **Frontend**: 7 core pages + 25+ UI components (100% complete for users)
-- **Database**: 5 optimized MongoDB models
-- **Security**: Enterprise-grade JWT authentication
-- **Documentation**: Comprehensive API and setup documentation
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **Nuxt.js** team for the amazing framework
-- **Shadcn/ui** for beautiful UI components
-- **Product Hunt** for the inspiration
-- **MongoDB** for the flexible database solution
-
-## 📞 Support
-
-If you have any questions or run into issues:
-
-1. Check the [server README](./server/README.md) for API documentation
-2. Review the setup instructions above
-3. Open an issue on GitHub
-4. Contact the development team
-
----
 
 **Built with ❤️ using modern web technologies**
