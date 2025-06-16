@@ -390,17 +390,6 @@ Authorization: Bearer <jwt_token>
 **Endpoint:** `GET /api/products`  
 **Authentication:** Not required
 
-**📤 Query Parameters:**
-
-```
-category    (optional): AI | SaaS | Devtools | Productivity | Design | Marketing | Finance | Education | Health | Gaming | Other
-sort        (optional): createdAt (default) | upvoteCount | name
-page        (optional): Page number (default: 1)
-limit       (optional): Items per page (default: 12)
-search      (optional): Search in name, tagline, description
-featured    (optional): true | false
-```
-
 **📝 Example Requests:**
 
 ```bash
@@ -555,66 +544,7 @@ curl -X POST http://localhost:3000/api/products \
   -F "images=@/path/to/image2.jpg"
 ```
 
-**📥 Success Response (201):**
 
-```json
-{
-  "success": true,
-  "message": "Product created successfully",
-  "data": {
-    "product": {
-      "_id": "507f1f77bcf86cd799439011",
-      "name": "AI Writing Assistant",
-      "tagline": "Write better content with AI",
-      "description": "An AI-powered writing tool that helps you create engaging content faster than ever before.",
-      "websiteUrl": "https://aiwritingassistant.com",
-      "logo": "https://res.cloudinary.com/xxx/image/upload/logo.jpg",
-      "images": [
-        "https://res.cloudinary.com/xxx/image/upload/img1.jpg",
-        "https://res.cloudinary.com/xxx/image/upload/img2.jpg"
-      ],
-      "category": "AI",
-      "submittedBy": {
-        "_id": "507f1f77bcf86cd799439012",
-        "name": "Jane Smith",
-        "email": "jane@example.com",
-        "avatar": "https://res.cloudinary.com/xxx/image/upload/avatar.jpg"
-      },
-      "upvotes": [],
-      "upvoteCount": 0,
-      "featured": false,
-      "status": "approved",
-      "createdAt": "2024-01-15T09:00:00.000Z",
-      "updatedAt": "2024-01-15T09:00:00.000Z"
-    }
-  }
-}
-```
-
----
-
-### 🗑️ Delete Product
-
-**Endpoint:** `DELETE /api/products/:id`  
-**Authentication:** Required (JWT Token - Must be product owner)
-
-**📝 Example Request:**
-
-```bash
-curl -X DELETE http://localhost:3000/api/products/507f1f77bcf86cd799439011 \
-  -H "Authorization: Bearer YOUR_JWT_TOKEN"
-```
-
-**📥 Success Response (200):**
-
-```json
-{
-  "success": true,
-  "message": "Product deleted successfully"
-}
-```
-
----
 
 ### ⬆️ Toggle Product Upvote
 
@@ -1892,6 +1822,4 @@ This project is licensed under the **ISC License**.
 
 **🎉 Happy coding! Build something amazing with this API! 🚀**
 
----
 
-_For additional support, create an issue in the repository or contact the development team._
