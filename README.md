@@ -2,9 +2,8 @@
 
 A full-stack Product Hunt clone built with **Nuxt 3**, **Express.js**, and **MongoDB**. This project allows users to discover, submit, and interact with innovative products in a modern, responsive interface.
 
-## 🌟 Live Demo
 
-https://product-hunt-webapp.vercel.app/
+
 
 
 
