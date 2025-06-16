@@ -4,9 +4,7 @@ A full-stack Product Hunt clone built with **Nuxt 3**, **Express.js**, and **Mon
 
 ## 🌟 Live Demo
 
-**Frontend:** [Your Frontend URL]  
-**Backend API:** [Your Backend URL]  
-**GitHub Repository:** https://github.com/HiteshTripathi2005/product-hunt
+
 
 ## 📋 Table of Contents
 
